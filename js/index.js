@@ -79,7 +79,7 @@ window.addEventListener("resize", () => {
 
 //auxclick
 
-document.querySelectorAll(".nav").forEach(element => {
+document.querySelectorAll(".nav").forEach(element =>  {  
   element.addEventListener("auxclick", () => {
     element.style.color = "seagreen";
     element.style.backgroundColor = "dodgerblue";
